@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "build": "parcel build src/index.html --no-minify --public-url ./"
+  },
+  "name": "Navigate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cssnano": "^5.1.12",
+    "postcss": "^8.4.14"
+  }
+}
