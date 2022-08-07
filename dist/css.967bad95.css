@@ -38,6 +38,9 @@ img {
 body {
     background-color: #eee;
     background-image: url(/bg.43bfd8b0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed
 }
 
 @media (min-width:500px) {

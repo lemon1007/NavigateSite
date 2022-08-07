@@ -76,11 +76,11 @@ window.onbeforeunload = () => {
 
 
 // 键盘监听
-$(document).on('keypress', (e) => {
-    const { key } = e;
-    for (let i = 0; i < hashMap.length; i++) {
-        if (hashMap[i].logo.toLowerCase() === key) {
-            window.open(hashMap[i].url)
-        }
-    }
-})
+// $(document).on('keypress', (e) => {
+//     const { key } = e;
+//     for (let i = 0; i < hashMap.length; i++) {
+//         if (hashMap[i].logo.toLowerCase() === key) {
+//             window.open(hashMap[i].url)
+//         }
+//     }
+// })
